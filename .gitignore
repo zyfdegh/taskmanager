@@ -1,0 +1,3 @@
+taskmanager
+vendor/*
+!vendor/vendor.json
