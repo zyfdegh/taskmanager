@@ -14,13 +14,17 @@ func main() {
 		iris.DevLogger(),
 		httprouter.New())
 
-	app.Get("/", api.GetRoot)
+	app.Any("/", api.GetRoot)
 
-	app.Get("/tasks", api.GetTasks)
-	app.Get("/tasks/:id", api.GetTask)
-	app.Post("/tasks", api.CreateTask)
-	app.Put("/tasks/:id", api.ModifyTask)
-	app.Delete("/tasks/:id", api.DeleteTask)
+	v1 := app.Party("/v1")
+
+	v1.Get("/tasks", api.GetTasks)
+	v1.Get("/tasks/:uuid", api.GetTask)
+	v1.Post("/tasks", api.CreateTask)
+	v1.Put("/tasks/:uuid", api.ModifyTask)
+	v1.Put("/tasks/:uuid/start", api.StartTask)
+	v1.Put("/tasks/:uuid/stop", api.StopTask)
+	v1.Delete("/tasks/:uuid", api.DeleteTask)
 
 	app.Listen(":8082")
 }

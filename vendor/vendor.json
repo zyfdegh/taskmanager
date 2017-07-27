@@ -51,7 +51,7 @@
 			"revisionTime": "2017-07-15T19:24:08Z"
 		},
 		{
-			"checksumSHA1": "nosz9CG1azo/ZEmIYhxzKNN2w3c=",
+			"checksumSHA1": "OiVJRvorAZM82vVgatZOXVPH594=",
 			"origin": "gopkg.in/kataras/iris.v6/vendor/github.com/google/go-github/github",
 			"path": "github.com/google/go-github/github",
 			"revision": "1abc3410a8db56ce7299bb11288659189a747041",
@@ -63,6 +63,12 @@
 			"path": "github.com/google/go-querystring/query",
 			"revision": "1abc3410a8db56ce7299bb11288659189a747041",
 			"revisionTime": "2017-03-28T05:04:31Z"
+		},
+		{
+			"checksumSHA1": "THBFSK132njkkKAyDzmQMfXk99Y=",
+			"path": "github.com/google/uuid",
+			"revision": "b7be3e3c4c9c47833eaa202d49bffa8ba821e54c",
+			"revisionTime": "2017-07-24T15:24:35Z"
 		},
 		{
 			"checksumSHA1": "poYpUe2RyFrWeBoTAdB6eM4F+eM=",
@@ -111,7 +117,7 @@
 			"revisionTime": "2017-03-28T05:04:31Z"
 		},
 		{
-			"checksumSHA1": "+CqJGh7NIDMnHgScq9sl9tPrnVM=",
+			"checksumSHA1": "KKxbAKrKrfd33YPpkNsDmTN3S+M=",
 			"origin": "gopkg.in/kataras/iris.v6/vendor/github.com/klauspost/compress/flate",
 			"path": "github.com/klauspost/compress/flate",
 			"revision": "1abc3410a8db56ce7299bb11288659189a747041",
@@ -125,7 +131,7 @@
 			"revisionTime": "2017-03-28T05:04:31Z"
 		},
 		{
-			"checksumSHA1": "/y2LxeEzZLyaDZe3ty/nuGjJtqo=",
+			"checksumSHA1": "78TSj4a4r1xyfJCNG19fu+cEnxM=",
 			"origin": "gopkg.in/kataras/iris.v6/vendor/github.com/klauspost/cpuid",
 			"path": "github.com/klauspost/cpuid",
 			"revision": "1abc3410a8db56ce7299bb11288659189a747041",
@@ -202,7 +208,7 @@
 			"revisionTime": "2017-03-28T05:04:31Z"
 		},
 		{
-			"checksumSHA1": "00eQaGynDYrv3tL+C7l9xH0IDZg=",
+			"checksumSHA1": "z79z5msRzgU48FCZxSuxfU8b4rs=",
 			"origin": "gopkg.in/kataras/iris.v6/vendor/golang.org/x/net/html/atom",
 			"path": "golang.org/x/net/html/atom",
 			"revision": "1abc3410a8db56ce7299bb11288659189a747041",
