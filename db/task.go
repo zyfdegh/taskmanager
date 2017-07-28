@@ -24,6 +24,6 @@ func GetTask(uuid string) (task types.Task, err error) {
 	return
 }
 
-func QueryTasks(offset, limit int, from, to time.Time) (tasks []types.Task, err error) {
+func QueryTasks(limit, offset int, from, to time.Time) (tasks []types.Task, err error) {
 	return
 }
