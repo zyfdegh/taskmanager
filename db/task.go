@@ -7,10 +7,12 @@ import (
 )
 
 func SaveTask(task types.Task) (savedTask types.Task, err error) {
+	savedTask = task
 	return
 }
 
 func UpdateTask(task types.Task) (updatedTask types.Task, err error) {
+	updatedTask = task
 	return
 }
 

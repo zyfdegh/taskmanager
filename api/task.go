@@ -11,7 +11,17 @@ import (
 )
 
 // GetTask handles GET /tasks/:uuid
-func GetTask(ctx *iris.Context) {}
+func GetTask(ctx *iris.Context) {
+	resp := types.RespGetTask{}
+
+	uuid := ctx.GetString("uuid")
+	if len(uuid) == 0 {
+		resp.Errmsg = "uuid not set in URL path"
+		ctx.JSON(iris.StatusBadRequest, resp)
+		return
+	}
+
+}
 
 // GetTasks handles GET /tasks/
 // URL params:
